@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="レジン作品づくりの記録と自己紹介。">
+<title>Resin Note | レジン制作ノート</title>
+<style>
+:root{--ink:#29272d;--muted:#77737e;--line:#e9e7ec;--accent:#8a70ad;--soft:#f8f6fa;--white:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font-family:system-ui,-apple-system,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;line-height:1.85}
+a{color:#70548f;text-underline-offset:3px}
+.wrap{width:min(860px,calc(100% - 36px));margin:auto}
+header{border-bottom:1px solid var(--line);padding:17px 0}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-weight:750;letter-spacing:.04em}
+nav a{font-size:.88rem;text-decoration:none;color:var(--muted);margin-left:16px}
+.hero{padding:62px 0 48px}
+.eyebrow{font-size:.75rem;letter-spacing:.15em;color:var(--accent);font-weight:750}
+h1{font-size:clamp(2rem,7vw,3.4rem);line-height:1.35;letter-spacing:.02em;margin:12px 0 16px;font-weight:750}
+h1 span{color:var(--accent)}
+.lead{max-width:630px;color:var(--muted);font-size:1rem}
+.hero-note{margin-top:26px;padding:18px 20px;background:var(--soft);border:1px solid var(--line);border-radius:14px;display:flex;gap:14px;align-items:center}
+.symbol{font-size:2rem;color:var(--accent)}
+section{padding:24px 0 30px}
+.kicker{font-size:.75rem;letter-spacing:.13em;color:var(--accent);font-weight:750}
+h2{font-size:1.35rem;margin:4px 0 15px}
+h3{font-size:1rem;margin:0 0 8px}
+.card{border:1px solid var(--line);border-radius:15px;padding:21px;background:#fff}
+.card p{margin:0 0 12px}.card p:last-child{margin-bottom:0}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.muted{color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}
+.tag{font-size:.78rem;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted)}
+.wishlist{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.link{display:inline-block;white-space:nowrap;text-decoration:none;border:1px solid #d8cde5;border-radius:10px;padding:9px 13px;font-size:.9rem}
+.notice{font-size:.85rem;color:var(--muted);background:var(--soft);padding:13px 15px;border-radius:10px;margin-top:13px}
+footer{border-top:1px solid var(--line);margin-top:28px;padding:26px 0 38px;text-align:center;color:var(--muted);font-size:.82rem}
+@media(max-width:600px){.grid{grid-template-columns:1fr}.hero{padding-top:42px}.wishlist{align-items:flex-start;flex-direction:column}nav a{margin-left:10px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <div class="brand">Resin Note</div>
+    <nav aria-label="ページ内メニュー">
+      <a href="#about">自己紹介</a><a href="#works">制作メモ</a><a href="#tools">道具</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <div class="hero">
+    <div class="eyebrow">MY PROFILE / HANDMADE</div>
+    <h1>ものづくりを、<br><span>少しずつ楽しむ。</span></h1>
+    <p class="lead">レジン作品づくりを勉強中。作ったものや挑戦したい技法、制作に使う道具について記録していくページです。</p>
+    <div class="hero-note"><div class="symbol" aria-hidden="true">♡</div><div><strong>Welcome to my Resin Note.</strong><br><span class="muted">レジン好きさんと交流しながら、いろいろ学んでいきたいです。</span></div></div>
+  </div>
+
+  <section id="about">
+    <div class="kicker">01 / ABOUT</div><h2>自己紹介</h2>
+    <div class="card">
+      <p>はじめまして。レジン作品づくりを練習しています。</p>
+      <p>今はハートシェイカーなど、透明感のある作品に挑戦中。試したことや失敗も記録しながら、少しずつ上達していきたいです。</p>
+      <div class="tags"><span class="tag">レジン初心者</span><span class="tag">ハートシェイカー</span><span class="tag">制作記録</span><span class="tag">紫・透明感</span></div>
+      <p class="muted" style="font-size:.82rem;margin-top:14px">※文章はサンプルです。自分らしい表現に書き換えてください。</p>
+    </div>
+  </section>
+
+  <section id="works">
+    <div class="kicker">02 / MAKING</div><h2>制作メモ</h2>
+    <div class="grid">
+      <article class="card"><h3>♡ 作ってみたいもの</h3><p class="muted">ハートシェイカー、透明感のある小物、色や封入パーツを工夫した作品。</p></article>
+      <article class="card"><h3>✧ 練習したいこと</h3><p class="muted">きれいな硬化、表面の仕上げ、気泡を減らす工夫、作品写真の撮り方。</p></article>
+    </div>
+  </section>
+
+  <section id="tools">
+    <div class="kicker">03 / TOOLS</div><h2>制作道具のメモ</h2>
+    <div class="card">
+      <p>レジン液、モールド、UV-LEDライトなど、作品づくりに使う道具についてまとめる場所です。</p>
+      <p class="muted">実際に使った感想や、調べて分かったことを少しずつ追加していく予定です。</p>
+    </div>
+  </section>
+
+  <section id="wishlist">
+    <div class="kicker">04 / WISHLIST</div><h2>気になっている道具</h2>
+    <div class="card wishlist">
+      <div><h3>制作道具の参考リスト</h3><p class="muted">制作環境を整えるために、使ってみたいものを別ページにまとめています。</p></div>
+      <!-- 下の href を自分の欲しいものリストURLに置き換えてください -->
+      <a class="link" href="https://example.com/" target="_blank" rel="noopener noreferrer">リストを見る ↗</a>
+    </div>
+    <div class="notice">公開前に、上のリンク先を自分の欲しいものリストのURLに変更してください。リストをまだ作っていない場合は、この欄を一時的に削除してもOKです。</div>
+  </section>
+
+  <section id="x">
+    <div class="kicker">05 / SOCIAL</div><h2>Xでもよろしくお願いします</h2>
+    <div class="card"><p>レジン好きさんと交流しながら、いろいろな技法を勉強できたらうれしいです。</p><p class="muted">X：ここに自分のプロフィールURLを追加（任意）</p></div>
+  </section>
+</main>
+<footer><div class="wrap">Resin Note · handmade journey<br>小さな一歩ずつ、制作を楽しむ。</div></footer>
+</body>
+</html>
